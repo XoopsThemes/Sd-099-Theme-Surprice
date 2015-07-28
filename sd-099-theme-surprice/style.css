@@ -1,0 +1,762 @@
+/*
+do not remove
+cc license
+framework by bleekk
+www.bleekk.com
+*/
+
+/* reset.css */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+
+/******************************************************************/
+body, html {
+        background: #e8eeef;
+        margin: 0px;
+        padding: 0;
+        font-family: Verdana, "Trebuchet MS", "Lucida Grande", Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #666;
+}
+
+.clear {
+        clear:both;
+        }
+
+p {
+        color: #333;
+        margin: 0;
+        padding: 5px;
+}
+
+.row {
+        width: 1000px;
+        margin: 0 auto;
+        background: transparent;
+        }
+
+.header-bg {
+        background: url("img/header-bg.jpg") no-repeat scroll center top #00698b;
+        color: #fff;
+        display: block;
+        float: left;
+        height: 158px;
+        margin: 0px 0 0 0;
+        padding: 0px 0 0 0;
+        text-align: left;
+        width: 1000px;
+        z-index: 100;
+        }
+
+#xo-main-logo {
+         position: relative;
+         top: 50px;
+         background: transparent no-repeat top left;
+         left: 20px;
+         color: #fff;
+}
+
+.header-bg a {
+        background: transparent;
+        font-size: 2em;
+        color: #fff;
+        left: 20px;
+        top: 50px;
+        }
+
+.header-bg a:hover {
+        background: transparent;
+        font-size: 2em;
+        color: #fff;
+        left: 20px;
+        top: 50px;
+        }
+
+.header-bg span {
+        font-size: 1.2em;
+        color: #fff;
+        display: block;
+        margin: 10px 0 0 20px;
+        width: 50%;
+        }
+	
+/* Banner */
+#banner {
+        clear: both;
+        /* Use relative pos to ensure the banner ad img/flash is relative to the header */
+        position: relative;
+        display: block;
+        z-index: 100;
+        width: 100%;
+        height: 150px;
+	margin: 0px 0 0 0;
+        background: transparent;
+        color: #fff;
+}
+
+#banner.commercial {
+        height: 150px;
+        background: transparent;
+}
+body.theme-dialog #banner {
+	height: 48px;
+	padding-top: 6px;
+	padding-left: 10px;
+}
+
+#banner-ad {
+	position:	absolute;
+	top:		10px;
+	right:		30px;
+	width:		480px;
+	height:		72px;
+	background:	transparent;
+	padding:	6px;
+}
+
+#banner-ad object, #banner-ad img {
+    display: block;
+}
+
+/*============== Styles in userbar.html =================*/
+#xo-userbar {
+        position: relative;
+        top: 10px;
+        height: 20px;
+        line-height: 30px;
+        padding: 5px 0 5px 0;
+        right: 20px;
+        text-align: right;
+        float: right;
+        color: #fff;
+}
+#xo-userbar form {
+        display: inline;
+        padding: 0;
+}
+#xo-userbar button {
+        margin: 0;
+        background: transparent none;
+        padding: 0;
+        color: #333;
+        border: 0 none transparent;
+}
+#xo-userbar button img {
+        width: 22px;
+        height: 22px;
+}
+#xo-userbar button:hover {
+         border: 0 !important;
+ }
+#xo-userbar img {
+        width: 26px;
+        height: 26px;
+}
+#xo-userbar a {
+        color: #fff;
+        background-color: inherit;
+        text-decoration: none;
+        font-size: 1.2em;
+        margin: 0;
+        padding: 0;
+}
+#xo-userbar a:hover {
+        color: #6cdbff;
+        background-color: inherit;
+        font-size: 1.2em;
+        margin: 0;
+        padding: 0;
+}
+#xo-uname {
+        font-weight: bold;
+        font-size: 1.1em;
+}
+
+
+.topmenu {
+        background: transparent url(img/navbar-bg.jpg) repeat-x scroll center center;
+        width: 1000px;
+        height: 50px;
+        line-height: 50px;
+        margin: 0px 0 0 0;
+        padding: 0px 0 0 0px;
+        float: left;
+        }
+
+.topmenu ul {
+        background: transparent;
+	padding: 0px;
+        margin: 0 0 0 40px;
+        text-align: left;
+        height: 50px;
+        }
+
+.topmenu li {
+        background: transparent;
+        display: inline;
+        margin: 0px;
+        padding: 0px 0px 0px 0px;
+        font-size: 1.2em;
+        height: 50px;
+        line-height: 50px;
+        }
+
+.topmenu li a {
+        background: transparent;
+        margin: 0px;
+        padding: 0px 20px 0px 20px;
+        font-size: 1.1em;
+        height: 50px;
+        line-height: 50px;
+        color: #fff;
+}
+
+.topmenu li a:hover {
+        background: transparent;
+        margin: 0px;
+        padding: 5px 20px 5px 20px;
+        font-size: 1.1em;
+        height: 50px;
+        line-height: 50px;
+        color: #6cdbff;
+}
+
+.topmenu a {
+        color: #fff;
+
+        }
+
+.topmenu a:hover {
+        color: #6cdbff;
+
+        }
+
+.topmenu ul li {
+        color: #fff;
+
+}
+
+.topmenu ul li:hover {
+        /*background: url("img/bg-hover.jpg") repeat-x scroll top left transparent; */
+        color: #6cdbff;
+
+}
+
+.topmenu ul li:hover a {
+        color: #6cdbff;
+}
+
+.topmenu ul li a {
+        color: #fff;
+}
+
+.topmenu ul li a:hover {
+        color: #6cdbff;
+}
+
+.content {
+        background: url("img/bg.jpg") no-repeat scroll center top #01688b;
+        margin: 0px;
+        padding: 0px;
+        color: #333;
+}
+
+.leftcolumn {
+        width: 170px;
+        background: transparent;
+        margin: 10px 5px 10px 10px;
+        float: left;
+}
+
+.rightcolumn {
+        width: 170px;
+        background: transparent;
+        margin: 10px 5px 10px 5px;
+        float: left;
+}
+
+.centercolumn {
+        background: #fff;
+        margin: 10px 5px;
+        padding: 5px;
+        float: left;
+}
+
+.dreispalten-layout {width:615px;}
+.zweispalten-layout {width:789px;}
+
+/* FOOTER */
+.footer {
+        background: #00698b;
+	width: 1000px;
+        height: 90px;
+        line-height: 90px;
+        color: #333;
+        text-align: center;
+        margin: 0 0 0px 0;
+        padding: 0px 0 0px 0;
+}
+
+.footer a {
+        color: #fff;
+}
+
+.footer a:hover {
+        color: #333;
+}
+
+/*Content*/
+.page-content {
+        margin: 5px 0 5px 0;
+        padding: 0px;
+        float: left;
+	background: #fff;
+}
+
+/* Bloecke */
+.centerblock-left {
+        width: 297px;
+        margin: 5px 5px 5px 0;
+        padding: 0 5px 0 0;
+        overflow: hidden;
+        float: left;
+	background: #fff;
+}
+
+.centerblock-right {
+        width: 297px;
+        margin: 5px 0 5px 5px;
+        padding: 0 0 0 5px;
+        overflow: hidden;
+        float: left;	
+	background: #fff;
+}
+
+.centerblock-center {
+        margin: 5px 0 5px 0;
+        overflow: hidden;
+        float: left;
+        display: block;
+        color: #333;
+	background: #fff;
+}
+
+.left-block-container {
+        background: transparent;
+        border: none;
+        margin: 0 0 5px 0;
+        padding: 0px;
+        height: 100%;
+}
+
+.left-block-title {
+        background: #e8eeef;
+        border: 5px solid #e8eeef;
+	/*border-radius: 5px 5px 0 0;*/
+        color: #4B68A4;
+        font-size: 1.1em;
+        font-weight: bold;
+        height: 25px;
+        line-height: 25px;
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+}
+
+.left-block-content {
+        background: #e8eeef;
+        border: 5px solid #e8eeef;
+        padding: 10px;
+        color: #333;
+        height: 100%;
+	/*border-radius: 0 0 5px 5px;*/
+}
+
+.left-block-content a {
+        background: transparent;
+        color: #4B68A4;
+        text-decoration: none;
+}
+
+.left-block-content a:hover {
+        background: transparent;
+        color: #333;
+        text-decoration: underline;
+}
+
+.right-block-container {
+        background: transparent;
+        border: none;
+        margin: 0 0 10px 0;
+        padding: 0px;
+        height: 100%;
+
+}
+
+.right-block-title {
+        background: #e8eeef;
+        border: 5px solid #e8eeef;
+	/*border-radius: 5px 5px 0 0;*/
+        color: #4B68A4;
+        font-size: 1.1em;
+        font-weight: bold;
+        height: 25px;
+        line-height: 25px;
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+}
+
+.right-block-content {
+        background: #e8eeef;
+        border: 5px solid #e8eeef;
+        padding: 10px;
+        color: #333;
+        height: 100%;
+	/*border-radius: 0 0 5px 5px;*/
+}
+
+.right-block-content a {
+        background: transparent;
+        color: #4B68A4;
+        text-decoration: none;
+}
+
+.right-block-content a:hover {
+        background: transparent;
+        color: #333;
+        text-decoration: none;
+}
+
+/*block-title und block-content*/
+.block-title {
+        background: #e8eeef;
+	/*border-radius: 5px 5px 0 0;*/
+        color: #444;
+        font-size: 1.2em;
+        font-weight: bold;
+	height: 25px;
+        line-height: 25px;
+        margin: 0px 0 0 0;
+        padding: 2px 5px 2px 5px;
+}
+
+.block-content {
+	margin: 0 0 10px 0;        
+	padding: 10px;
+        background: #e8eeef;
+        border: 5px solid #e8eeef;
+        color: #333;
+	/*border-radius: 5px 5px 5px 5px;*/
+}
+
+.block-content a {
+        background: transparent;
+        color: #4B68A4;
+        text-decoration: none;
+}
+
+.block-content a:hover {
+        background: transparent;
+        color: #333;
+        text-decoration: none;
+}
+
+/* END Bloecke */
+
+/* hypertext links */
+a {
+        text-decoration: none;
+        border: none;
+        color: #4B68A4;
+}
+a:hover {
+        background: none;
+        color: #333;
+}
+
+/* titles */
+h1, h2, h3 {
+        margin: 0;
+        font-weight: normal;
+        color: #444;
+}
+h1 {
+        font-size: 1.2em;
+}
+h2 {
+        font-size: 1.3em;
+}
+h3 {
+        font-size: 1.4em;
+}
+h4 {font-size: 1em;}
+h5 {font-size: .9em;}
+h6 {font-size: .8em;}
+
+/*listing*/
+ul { margin: 0px; padding: 0 0 0 15px;}
+li { margin:0px; list-style: square;}
+
+/* block main menu */
+#mainmenu {        font-size: 13px;}
+#mainmenu a {
+          background: none /*transparent url(img/title-r_.jpg) no-repeat scroll left center*/;
+	  display: block;
+          margin: 0;
+          padding: 3px 3px 3px 10px;
+	  border-bottom: 1px dotted #0666BF;
+          color: #0666BF;
+}
+#mainmenu a:hover { color: #666; }
+#mainmenu a.menuTop {}
+#mainmenu a.menuMain {}
+#mainmenu a.menuSub {
+        margin: 0;
+        padding: 0 0 0 20px;
+        color: #666;
+}
+#mainmenu a.menuSub:hover {
+        background-color: transparent;
+        margin: 0;
+        padding: 0 0 0 20px;
+        color: #00509a;
+}
+
+/* block user menu */
+#usermenu { 
+	  font-size: 13px;
+	  border-top: 1px dashed #00509a;
+	  /*border-right: 1px dashed #DAE4EC;*/
+}
+#usermenu a {
+          background: transparent url(img/title-l.jpg) no-repeat scroll left center;
+	  border-bottom: 1px dashed #DDDDDD;
+	  margin: 0;
+	  padding: 5px 3px 5px 10px;
+	  display: block;
+          color: #00509a;
+}
+#usermenu a:hover { color: #333; background: #e8eeef; }
+#usermenu a.menuTop {}
+#usermenu a.highlight { background-color: transparent; }
+
+
+
+/* tables and cells */
+table { width: 100%; }
+table td {
+          padding: 0;
+          border-width: 0;
+          vertical-align: top;
+        background: transparent;
+}
+
+/*table.odd #profile-form-searchform {
+        width: 100%;
+}*/
+
+table.profile-form {
+        background: #fff;
+        /*width: 100%;*/
+}
+
+.block form {
+	margin:0;
+	padding:0 0 0 8px;
+}
+
+select {
+	background-color:#FFFFFF;
+	border:2px inset #F8F8F8 !important;
+	color:#333333;
+	font-size:0.9em;
+	max-width:100%;
+}
+
+th {
+        background: #e8eeef;
+        border-bottom: 2px solid #44a8d7;
+        height: 20px;
+        line-height: 20px;
+        vertical-align : middle;
+        color: #00509a;
+        font-size: 1.1em;
+        font-weight: bold;
+}
+.outer {
+        background: #fff;
+        margin: 5px 0 0 0;
+        color: #333;
+}
+.head {
+        background-color: #eefbff;
+        font-weight: bold;
+        margin: 0;
+        padding: 3px;
+        color: #333;
+}
+.even {
+        background-color: #f9f9f9;
+        padding: 3px;
+        color: #000;
+        margin: 0;
+}
+.odd {
+        background-color: #f9f9f9;
+        padding: 3px;
+        color: #333;
+        margin: 0;
+}
+.foot {
+          background-color: #f6f6f6;
+          font-weight: bold;
+}
+tr.even td {
+          background-color: #fafafa;
+}
+tr.odd td {
+          background-color: #fafafa;
+}
+
+/* Artikel (für zB das news, smartsection modul)*/
+.item {
+         margin-bottom: 0px;
+         border: 1px solid #eee;
+         padding: 5px;
+}
+.itemHead {
+          padding: 3px;
+          color: #fff;
+          font-size: 1.1em;
+}
+.itemInfo {
+          text-align: right;
+          padding: 3px;
+          background-color: inherit;
+}
+.itemTitle a {
+          font-size: 1.1em;
+          font-weight: bold;
+          color: #055670;
+}
+.itemPoster {
+          font-size: .9em;
+          font-style:italic;
+}
+.itemPostDate {
+          font-size: .9em;
+          font-style:italic;
+}
+.itemStats {
+          font-size: .9em;
+          font-style:italic;
+}
+.itemBody {padding-left: 5px;}
+.itemText {
+          margin-top: 5px;
+          margin-bottom: 5px;
+          line-height: 1.5em;
+}
+.itemText:first-letter {
+          font-size: 1.3em;
+          font-weight: bold;
+}
+.itemFoot {
+          text-align: right;
+          padding: 3px;
+          background-color: #f9f9f9;
+}
+.itemAdminLink {font-size: .9em;}
+.itemPermaLink {font-size: .9em;}
+
+/* Forum */
+.comTitle {
+          font-weight: bold;
+          margin-bottom: 2px;
+}
+.comText {padding: 2px;}
+.comUserStat {
+          font-size: 10px;
+          font-weight:bold;
+          border: 1px solid #eee;
+          background-color: #fff;
+          margin: 2px; padding: 2px;
+}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {
+          margin-left: 2px;
+          margin-top: 10px;
+          color: #055670;
+          font-weight:bold;
+          font-size: .8em;
+}
+.comUserRank {margin: 2px;}
+.comUserRankText {
+          font-size: .8em;
+          font-weight:bold;
+}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {
+          font-weight: normal;
+          font-style: italic;
+          font-size: .8em
+}
+.comDateCaption {
+          font-weight: bold;
+          font-style: normal;
+          font-size: .8em
+}
+.signature {
+          font-size:.8em;
+          font-style:italic;
+}
+
+/* core nachrichten */
+.errorMsg {
+          background-color: #FFCCCC;
+          text-align: center;
+          border-top: 1px solid #efffdd;
+          border-left: 1px solid #efffdd;
+          border-right: 1px solid #aaa;
+          border-bottom: 1px solid #aaa;
+          font-weight: bold;
+          padding: 10px;
+}
+.confirmMsg {
+          background-color: #fff;
+          color: #333;
+          text-align: center;
+          border-top: 1px solid #eee;
+          border-left: 1px solid #eee;
+          border-right: 1px solid #aaa;
+          border-bottom: 1px solid #aaa;
+          font-weight: bold;
+          padding: 10px;
+}
+.resultMsg {
+          background-color: #c1c1c1;
+	  font-weight: bold;
+          color: #333;
+          text-align: center;
+          border-top: 1px solid #ccc;
+          border-left: 1px solid #ccc;
+          border-right: 1px solid #666;
+          border-bottom: 1px solid #666;
+          padding: 10px;
+}
+
+/* codes and quotes */
+.xoopsCode {
+        background-color: #fff;
+        border: 1px inset #eee;
+        font-family: "Courier New",Courier,monospace,verdana,arial;
+        max-height: 200px;
+        overflow: auto;
+}
+.xoopsQuote {
+        background-color: #fff;
+        border: 1px inset #eee;
+        font-family: "Courier New",Courier,monospace,verdana,arial;
+        font-style:italic;
+        padding: 0 6px 6px 6px;
+}
